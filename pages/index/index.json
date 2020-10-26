@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "number_scroll":"/components/number_scroll/index"
+  }
+}

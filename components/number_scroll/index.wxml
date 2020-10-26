@@ -1,0 +1,11 @@
+<!---数字滚动组件--->
+<view class="number_scroll" style="height:{{fontSize}}px">
+
+  <!---初始值如何弄-->
+  <view class="n_item" wx:for="{{executeArr}}" wx:key="index" 
+  style="transition:all {{executeTransition * executeTransitionArr[index]}}s ease;top:-{{fontSize * item}}px;font-size:{{fontSize}}px;line-height:{{fontSize}}px;color:{{fontColor}};">
+    <text class="n_txt" wx:for="{{numberList}}" style="height:{{fontSize}}px;line-height:{{fontSize}}px;" wx:for-item="subItem" wx:for-index="subIndex" wx:key="subIndex">{{subItem}}</text>
+  </view>
+  
+  
+</view>

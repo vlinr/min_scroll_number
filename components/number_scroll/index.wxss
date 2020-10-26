@@ -1,0 +1,23 @@
+.number_scroll{
+  display: flex;
+  justify-content: center;
+  /* height: 40rpx; */
+  overflow: hidden;
+  position: relative;
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+.number_scroll .n_item{
+  /* font-size: 40rpx; */
+  /* width: 40rpx; */
+  /* line-height: 40rpx; */
+  position: relative;
+  top: 0;
+}
+
+/* .number_scroll .n_item.active{
+  transition: all .3s esae;
+} */
+.number_scroll .n_item .n_txt{
+  display: block;
+  width: 100%;
+}

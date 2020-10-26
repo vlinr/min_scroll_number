@@ -1,0 +1,5 @@
+<view class="number">
+  剩余：
+  <number_scroll id="numberScroll" autoPlay="false" endNumber="{{nowCouponNumber}}" fontColor="#000" startNumber = "500" fontSize="14" utilExecuteTime="true" bind:executeCallBack="executeCallBack"></number_scroll>
+   张
+</view>
